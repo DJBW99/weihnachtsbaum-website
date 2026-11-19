@@ -1,0 +1,17 @@
+# Diese Dateien gehören NICHT ins GitHub-Repository.
+
+# Projektnotizen und Original-Flyer
+briefing.md.txt
+CLAUDE.md.txt
+WeinachtsbaumverkaufFlyer.jpeg
+
+# Lokaler Testserver und Editor-Einstellungen
+.claude/
+
+# Apache-Einstellungen aus der IONOS-Planung – Cloudflare Pages wertet sie nicht aus (dafür gibt es _headers)
+.htaccess
+
+# Betriebssystem-Dateien
+Thumbs.db
+desktop.ini
+.DS_Store

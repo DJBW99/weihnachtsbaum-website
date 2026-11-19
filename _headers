@@ -1,0 +1,14 @@
+# Sicherheits-Header für Cloudflare Pages (gilt für alle Seiten)
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; frame-src https://www.google.com https://maps.google.com; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Strict-Transport-Security: max-age=15552000
+
+# Projektdateien nicht von Suchmaschinen erfassen lassen
+/README.md
+  X-Robots-Tag: noindex
+/LICENSE
+  X-Robots-Tag: noindex

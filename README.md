@@ -12,19 +12,20 @@ Statische Website aus reinem HTML, CSS und JavaScript – ohne Build-Schritt, oh
 index.html          Startseite (One-Pager)
 impressum.html      Impressum
 datenschutz.html    Datenschutzerklärung
-404.html            Fehlerseite für GitHub Pages
+404.html            Fehlerseite (wird von Cloudflare Pages automatisch genutzt)
 css/style.css       Gestaltung (mobile first)
 js/main.js          Schneefall, Parallax, Liefer-Auto, Karte nach Klick
 assets/img/         Grafiken aus dem Flyer, Favicon
 robots.txt          Hinweise für Suchmaschinen
 sitemap.xml         Sitemap
-CNAME               Eigene Domain für GitHub Pages
+_headers            Sicherheits-Header für Cloudflare Pages
 ```
 
 ## Hosting
 
-- **GitHub Pages** liefert die Dateien aus dem Branch `main` aus.
-- **Cloudflare** ist als CDN und Schutz vorgeschaltet.
+- **GitHub** speichert nur den Quellcode (Branch `main`).
+- **Cloudflare Pages** baut bei jedem Push automatisch neu und liefert die Website aus – inklusive CDN und Schutz.
+- **IONOS** ist nur noch Registrar der Domain; die Nameserver zeigen auf Cloudflare.
 
 Änderungen am Hosting müssen auch in der Datenschutzerklärung (Ziffer 3) nachgezogen werden.
 
